@@ -51,4 +51,3 @@ if color == 'B':
     ax.bar(np.arange(len(hist_blue)), hist_blue, color='blue')
     ax.set_title('Histogram of Blue Color')
     st.pyplot(fig)
-
