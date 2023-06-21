@@ -39,15 +39,15 @@ color = st.radio(
 if color == 'R':
     fig, ax = plt.subplots()
     ax.bar(np.arange(len(hist_red)), hist_red, color='red')
-    ax.set_title('Histogram of Red Color')
+    ax.set_title('Histogram of Red')
     st.pyplot(fig)
 if color == 'G':
     fig, ax = plt.subplots()
     ax.bar(np.arange(len(hist_green)), hist_green, color='green')
-    ax.set_title('Histogram of Green Color')
+    ax.set_title('Histogram of Green')
     st.pyplot(fig)
 if color == 'B':
     fig, ax = plt.subplots()
     ax.bar(np.arange(len(hist_blue)), hist_blue, color='blue')
-    ax.set_title('Histogram of Blue Color')
+    ax.set_title('Histogram of Blue')
     st.pyplot(fig)
