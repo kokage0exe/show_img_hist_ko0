@@ -31,6 +31,9 @@ fig, ax = plt.subplots()
 for i, data in enumerate(hist_data):
     ax.bar(np.arange(len(data)), data, color=colors[i], label=labels[i])
 
+ax.set_title('Histogram of RGB')
+ax.legend()
+st.pyplot(fig)
 
 # choose one color
 color = st.radio(
